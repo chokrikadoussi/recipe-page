@@ -47,21 +47,30 @@ hr {
 
 ul,
 ol {
-  line-height: 175%;
+  list-style-type: none;
   padding-inline-start: 0;
+  line-height: 175%;
+  
 }
 
-ul {
-  list-style-type: none;
+ol li , ul li{
+  padding-inline-start: 2rem;
+  position: relative;
 }
 
 ul li::before {
   content: "\2022";
-  color: var(--DarkRaspberry);
-  padding-right: 1rem;
+  color: var(--Nutmeg);
+  position: absolute;
+  left: 0;
 }
 
-/* Changer couleur ol li (via chatgpt) */
+ol li::before {
+  content: counter(list-item) '. ';
+  color: var(--Nutmeg);
+  position: absolute;
+  left: 0;
+}
 
 .img-recipe {
   width: 100%;
@@ -98,4 +107,13 @@ span {
   color: var(--Nutmeg);
   padding: 2vh 0;
   font-size: 1.7rem;
+}
+
+.nutrition-table th {
+  font-weight: 400;
+}
+
+.nutrition-table th:nth-child(2n){
+  color: var(--Nutmeg);
+  font-weight: 700;
 }
