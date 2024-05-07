@@ -103,17 +103,32 @@ span {
   font-weight: 700;
 }
 
+.instruction > ol > li {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
 .sub {
   color: var(--Nutmeg);
   padding: 2vh 0;
   font-size: 1.7rem;
 }
 
-.nutrition-table th {
-  font-weight: 400;
+.nutrition-table {
+  width: 100%;
 }
 
-.nutrition-table th:nth-child(2n){
+.nutrition-table th, .nutrition-table td {
+  padding: 1vh 0;
+  text-align: start;
+}
+
+.nutrition-table th {
+  font-weight: 400;
+  padding-left: 1rem;
+}
+
+.nutrition-table td{
   color: var(--Nutmeg);
   font-weight: 700;
 }
