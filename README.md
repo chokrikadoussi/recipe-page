@@ -1,6 +1,6 @@
 # Frontend Mentor - Recipe page solution
 
-This is a solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -14,7 +14,6 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
   - [Continued development](#continued-development)
 - [Author](#author)
 
-
 ## Overview
 
 ### Screenshot
@@ -23,7 +22,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Here](https://recipepage-rose.vercel.app/)
 
 ## My process
 
@@ -34,13 +33,9 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 - Lists
 - em and rem sizes
 
-
 ### What I learned
 
-
-
 ### Continued development
-
 
 ## Author
 
